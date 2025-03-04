@@ -12,7 +12,7 @@
     }
 
     .main {
-        background-image: url(img/netflix_bg.jpg);
+        background-image: url(img/background.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -206,7 +206,6 @@
         justify-content: center;
         align-items: center;
         max-width: 80vw;
-        margin: auto;
         color: white;
     }
 
