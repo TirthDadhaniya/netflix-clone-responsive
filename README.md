@@ -17,8 +17,7 @@ This project is a front-end clone of the Netflix landing page, built using HTML 
 
 ## Live Demo
 
-You can view the live demo of the Netflix landing page clone here: Live Demo](https://tirthdadhaniya.github.io/netflix-clone-responsive/](https://tirthdadhaniya.github.io/netflix-clone-responsive/
-
+You can view the live demo of the Netflix landing page clone here: [Live Demo](https://tirthdadhaniya.github.io/netflix-clone-responsive/)
 
 ## Usage
 
