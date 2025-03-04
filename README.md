@@ -8,7 +8,7 @@ This project is a front-end clone of the Netflix landing page, built using HTML 
 * **HTML and CSS Only:** Built with purely front-end technologies (HTML and CSS), with no backend functionality or interactive elements.
 
 ## Screenshots
-![Screenshot 2025-03-04 135147](https://github.com/user-attachments/assets/9e162189-eb57-4f11-8fcf-b725e4447c9a)
+![Screenshot 2025-03-04 150512](https://github.com/user-attachments/assets/90805ba0-e0c1-4ff0-938c-c8fa69e73b03)
 ![Screenshot 2025-03-04 135205](https://github.com/user-attachments/assets/3f06ab78-5fa6-454d-be09-e49269c36a04)
 ![Screenshot 2025-03-04 135439](https://github.com/user-attachments/assets/9a7d28de-48c0-4425-8a57-f73aa0744931)
 ![Screenshot 2025-03-04 135447](https://github.com/user-attachments/assets/5dc46d46-740c-4ec4-a554-d71f2f6c32d0)
