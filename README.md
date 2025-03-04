@@ -15,6 +15,10 @@ This project is a front-end clone of the Netflix landing page, built using HTML 
 ![Screenshot 2025-03-04 135417](https://github.com/user-attachments/assets/ee1333ab-58e6-43f1-b461-d5c1015f471f)
 ![Screenshot 2025-03-04 135405](https://github.com/user-attachments/assets/37f2a7a5-b1fe-4913-9adc-06ddc6662806)
 
+## Live Demo
+
+You can view the live demo of the Netflix landing page clone here: [https://tirthdadhaniya.github.io/netflix-clone-responsive/](https://tirthdadhaniya.github.io/netflix-clone-responsive/)
+
 ## Usage
 
 This project is intended for educational and portfolio purposes. It demonstrates front-end development skills and the ability to replicate a complex UI design.
