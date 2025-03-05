@@ -205,6 +205,7 @@
         margin: auto;
         color: white;
         height: 457px;
+        gap: 50px;
     }
     
     .second h1 {
@@ -223,10 +224,11 @@
     
     .second-img {
         position: relative;
+        margin: 20px 20px 20px 40px;
     }
     
     .second img {
-        width: 400px;
+        width: 280px;
         position: relative;
         z-index: 10;
     }
