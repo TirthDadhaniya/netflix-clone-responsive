@@ -59,10 +59,8 @@
         border-radius: 3px;
         border: 1px solid rgba(255, 255, 255, 0.387);
     }
-    .btn-eng-small{
-        display: none;
-    }
 
+    
     .btn-si {
         background-color: rgb(232, 25, 25);
         color: white;
@@ -73,13 +71,13 @@
         border-radius: 3px;
         border: none;
     }
-
+    
     .btn-si:hover {
         background-color: rgb(189, 19, 19);
         cursor: pointer;
     }
-
-
+    
+    
     .heading {
         display: flex;
         justify-content: center;
@@ -89,7 +87,7 @@
         position: relative;
         height: calc(100vh - 75px);
     }
-
+    
     .heading-big {
         font-size: 56px;
         font-weight: 800;
@@ -98,9 +96,7 @@
         text-align: center;
         margin: 0px 0px 10px 0px;
     }
-    .heading-small{
-        display: none;
-    }
+    
 
     .heading h3 {
         font-size: 20px;
@@ -108,14 +104,14 @@
         margin: 0px 0px 35px 0px;
         padding: 0;
     }
-
+    
     .heading p {
         font-size: 14px;
         font-weight: 300;
         margin: 0px 0px 12px 0px;
         padding: 0;
     }
-
+    
     .details {
         display: flex;
         justify-content: center;
@@ -123,7 +119,7 @@
         position: relative;
         gap: 10px;
     }
-
+    
     .email {
         width: 350px;
         background-color: rgba(43, 38, 38, 0.57);
@@ -135,7 +131,7 @@
         border-radius: 3px;
         border: 1px solid rgba(255, 255, 255, 0.387);
     }
-
+    
     .getstarted {
         background-color: rgb(232, 25, 25);
         color: white;
@@ -146,19 +142,19 @@
         border-radius: 3px;
         border: none;
     }
-
+    
     .getstarted:hover {
         background-color: rgb(189, 19, 19);
         cursor: pointer;
     }
-
+    
     .separation {
         height: 7px;
         background-color: rgb(46, 44, 44);
         position: relative;
         z-index: 20;
     }
-
+    
     .first {
         display: flex;
         justify-content: center;
@@ -168,71 +164,73 @@
         color: white;
         height: 457px;
     }
-
+    
     .first h1 {
         font-size: 40px;
         font-weight: 700;
         margin: 0px 0px 10px 0px;
         padding: 0;
     }
-
+    
     .first h3 {
         font-size: 18px;
         font-weight: 500;
         margin: 0px 0px 10px 0px;
         padding: 0;
     }
-
+    
     .first-img {
         position: relative;
     }
-
+    
     .first img {
         width: 500px;
         position: relative;
         z-index: 10;
         margin: 0px;
     }
-
+    
     .first-img video {
         position: absolute;
         top: 78px;
         right: 65px;
         width: 370px;
     }
-
+    
     .second {
         display: flex;
         justify-content: center;
         align-items: center;
         max-width: 80vw;
+        margin: auto;
         color: white;
+        height: 457px;
     }
-
+    
     .second h1 {
         font-size: 40px;
         font-weight: 700;
         margin: 0px 0px 0px 0px;
         padding: 0px;
     }
-
+    
     .second h3 {
         font-size: 18px;
         font-weight: 500;
         margin: 0px 0px 10px 0px;
         padding: 0;
     }
-
+    
     .second-img {
         position: relative;
     }
-
+    
     .second img {
-        width: 500px;
+        width: 400px;
         position: relative;
         z-index: 10;
     }
-
+    
     .third {
         display: flex;
         justify-content: center;
@@ -242,60 +240,60 @@
         color: white;
         height: 457px;
     }
-
+    
     .third h1 {
         font-size: 40px;
         font-weight: 700;
         margin: 0px 0px 5px 0px;
         padding: 0;
     }
-
+    
     .third h3 {
         font-size: 18px;
         font-weight: 500;
         margin: 0px 0px 10px 0px;
         padding: 0;
     }
-
+    
     .third-img {
         position: relative;
     }
-
+    
     .third img {
         width: 500px;
         position: relative;
         z-index: 10;
         margin: 0px;
     }
-
+    
     .third-img video {
         position: absolute;
         top: 76px;
         right: 65px;
         width: 370px;
     }
-
+    
     .faq {
         margin: auto;
         max-width: 70vw;
         padding: 40px 0px 0px 0px;
         color: white;
     }
-
+    
     .faq h1 {
         font-size: 24px;
         font-weight: 600;
         margin: 0px 0px 10px 0px;
         padding: 0;
     }
-
+    
     .faq-box {
         display: flex;
         flex-direction: column;
         gap: 7px;
         margin-bottom: 60px;
     }
-
+    
     .que {
         display: flex;
         justify-content: space-between;
@@ -305,27 +303,27 @@
         background-color: rgb(45 45 45);
         padding: 20px 20px 20px 30px;
     }
-
+    
     .que h3 {
         color: white;
         font-size: 22px;
         font-weight: 400;
     }
-
+    
     .que:hover {
         background-color: rgb(35 35 35);
         cursor: pointer;
     }
-
-
+    
+    
     footer {
         color: white;
     }
-
+    
     footer>div {
         padding: 0px 0px 40px 0px;
     }
-
+    
     footer p {
         font-size: 16px;
         font-weight: 300;
@@ -333,7 +331,7 @@
         padding: 0px;
         text-align: center;
     }
-
+    
     .footer-mail {
         display: flex;
         justify-content: center;
@@ -341,7 +339,7 @@
         position: relative;
         gap: 10px;
     }
-
+    
     footer .email {
         width: 600px;
         background-color: #0f0f0f;
@@ -369,35 +367,47 @@
         background-color: rgb(189, 19, 19);
         cursor: pointer;
     }
-
+    
     .call {
         margin: auto;
         width: 70vw;
         padding: 40px 0px 40px 0px;
     }
-
+    
     .call h5 {
         font-size: 16px;
         font-weight: 300;
     }
-
-    .footer-end-small>div>h5{
-        display: none;
-    }
-
+    
     .footer-end {
         display: flex;
         justify-content: space-between;
         margin: auto;
         width: 70vw;
     }
-
+    
     .footer-end h5 {
         font-size: 14px;
         font-weight: 300;
         padding: 5px 0px;
     }
-
+    
     .footer-end h5:hover {
         cursor: pointer;
     }
+    
+    @media screen and (min-width: 768px) {
+        
+        .btn-eng-small{
+            display: none;
+        }
+
+        .heading-small{
+            display: none;
+        }
+
+        .footer-end-small>div>h5{
+            display: none;
+        }
+    }
+    
