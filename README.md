@@ -17,7 +17,7 @@ This project is a front-end clone of the Netflix landing page, built using HTML 
 
 ## Live Demo
 
-You can view the live demo of the Netflix landing page clone here: [Live Demo](https://tirthdadhaniya.github.io/netflix-clone-responsive/)
+You can view the live demo of the Netflix landing page clone here: [Live Demo](https://tirthdadhaniya.github.io/netflix-clone-responsive/)<br>
 **Note:** Chrome has built-in safety feature that marks this website as **Phishing Site** because it's clone of netflix so skip that warning screen to visit website.
 
 ## Usage
