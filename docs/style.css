@@ -20,7 +20,7 @@
         position: relative;
     }
 
-    .main .box {
+    .box {
         height: 100vh;
         width: 100%;
         opacity: 0.75;
@@ -204,7 +204,7 @@
         max-width: 80vw;
         margin: auto;
         color: white;
-        height: 457px;
+        height: 477px;
         gap: 50px;
     }
     
@@ -224,7 +224,7 @@
     
     .second-img {
         position: relative;
-        margin: 20px 20px 20px 40px;
+        margin: 40px 20px 20px 40px;
     }
     
     .second img {
