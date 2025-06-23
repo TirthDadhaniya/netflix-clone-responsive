@@ -8,12 +8,10 @@ This project is a front-end clone of the Netflix landing page, built using HTML 
 * **HTML and CSS Only:** Built with purely front-end technologies (HTML and CSS), with no backend functionality or interactive elements.
 
 ## Screenshots
-![Screenshot 2025-03-04 150512](https://github.com/user-attachments/assets/90805ba0-e0c1-4ff0-938c-c8fa69e73b03)
-![Screenshot 2025-03-04 135205](https://github.com/user-attachments/assets/3f06ab78-5fa6-454d-be09-e49269c36a04)
-![Screenshot 2025-03-04 135439](https://github.com/user-attachments/assets/9a7d28de-48c0-4425-8a57-f73aa0744931)
-![Screenshot 2025-03-04 135447](https://github.com/user-attachments/assets/5dc46d46-740c-4ec4-a554-d71f2f6c32d0)
-![Screenshot 2025-03-04 135417](https://github.com/user-attachments/assets/ee1333ab-58e6-43f1-b461-d5c1015f471f)
-![Screenshot 2025-03-04 135405](https://github.com/user-attachments/assets/37f2a7a5-b1fe-4913-9adc-06ddc6662806)
+![Screenshot 2025-06-23 220136](https://github.com/user-attachments/assets/6be24d6f-33d1-4091-8894-c698c48b6798)
+![Screenshot 2025-06-23 220157](https://github.com/user-attachments/assets/c1421363-f4b7-442b-ad2c-7c2e67d70c2e)
+![Screenshot 2025-06-23 220213](https://github.com/user-attachments/assets/08120052-b6e1-4175-8aae-a77e495ac02a)
+![Screenshot 2025-06-23 220220](https://github.com/user-attachments/assets/100e402d-2c2e-45e3-a3ed-bdb9a1491fe7)
 
 ## Live Demo
 
