@@ -9,7 +9,34 @@
 
 body {
   background-color: #000000;
+  padding-top: 35px; /* Added padding to accommodate the fixed demo banner */
 }
+
+/* START: New styles for the educational demo banner */
+.demo-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffb300; /* A distinct, non-Netflix color */
+  color: #000;
+  text-align: center;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 1000; /* Ensure it's on top of everything */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.demo-banner p {
+  margin: 0;
+  padding: 0;
+}
+
+.demo-banner strong {
+  color: #c20000; /* Highlight important warning text */
+}
+/* END: New styles for the educational demo banner */
 
 .main {
   background-image: url(img/background.jpg);
