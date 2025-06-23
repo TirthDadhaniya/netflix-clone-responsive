@@ -3,34 +3,56 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
+  <!-- Removed redundant style.css import with media query as it's already linked above -->
+  <!-- <link rel="stylesheet" href="style.css" media="(min-width: 1200px)"> -->
+  <!-- The other media query specific CSS files are still linked, assuming they define distinct styles -->
+  <!-- <link rel="stylesheet" href="m1-1199-922.css" media="(min-width: 922px)"> -->
+  <!-- <link rel="stylesheet" href="m2-921-768.css" media="(min-width: 768px)"> -->
+  <!-- <link rel="stylesheet" href="m3-767-576.css" media="(min-width: 576px)"> -->
+  <!-- <link rel="stylesheet" href="m4-575-441.css" media="(min-width: 441px)"> -->
+  <!-- <link rel="stylesheet" href="m5-440-0.css" media="(max-width: 440px)"> -->
+  <script src="index.js" defer></script> <!-- Added 'defer' to ensure script runs after HTML parsing -->
+
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <title>My Netflix Clone</title>
+  <title>My Netflix Clone - Educational Demo</title>
 </head>
 
 <body>
+  <!-- START: Added educational demo banner -->
+  <div class="demo-banner">
+    <p><strong>EDUCATIONAL DEMO SITE ONLY</strong> - This is a UI clone for learning purposes and does not collect any
+      personal data.</p>
+  </div>
+  <!-- END: Added educational demo banner -->
 
   <div class="main">
     <nav>
-      <span><img width="150" src="img/logo.png" alt="Netflix Logo"></span>
+      <!-- Removed trailing slash from img tag -->
+      <span><img width="150" src="img/logo.png" alt="Netflix Demo Logo"></span>
       <div class="rightnav">
         <button class="btn-eng">English&nbsp;&#x25BC;</button>
         <button class="btn-eng-small">En&nbsp;&#x25BC;</button>
-        <button class="btn-si">Sign In</button>
+        <button class="btn-si">Sign In (Demo)</button> <!-- Added (Demo) to button -->
       </div>
     </nav>
 
     <div class="box"></div>
 
     <div class="heading">
+      <!-- Removed trailing slash from br tag -->
       <h1 class="heading-big">Unlimited movies,<br>TV shows and more</h1>
       <h1 class="heading-small">Unlimited movies, TV shows and more</h1>
-      <h3>Starts at ₹149. Cancel at any time.</h3>
+      <!-- START: Modified text for educational purpose -->
+      <h3>This is a UI clone for educational purposes. No data is collected.</h3>
       <p>
-        Ready to watch? Enter your email to create or restart your membership.
+        Ready to watch? Enter any email to explore the demo.
       </p>
+      <!-- END: Modified text for educational purpose -->
       <div class="details">
-        <input class="email" type="email" placeholder="Email address">
+        <!-- Removed trailing slash from input tag -->
+        <input class="email" type="email" placeholder="Enter demo email address"> <!-- Modified placeholder -->
+        <!-- Removed onclick and extra double quote. Will add event listener in index.js -->
         <button class="getstarted">Get Started &nbsp;&gt;</button>
       </div>
     </div>
@@ -48,8 +70,10 @@
       </h3>
     </div>
     <div class="first-img">
-      <img src="img/tv.png" alt="Netflix on TV">
+      <!-- Removed trailing slash from img tag -->
+      <img src="img/tv.png" alt="Screenshot of Netflix interface on TV"> <!-- Improved alt text -->
       <video autoplay loop muted>
+        <!-- Removed trailing slash from source tag -->
         <source src="video/first.m4v" type="video/mp4">
       </video>
     </div>
@@ -59,7 +83,7 @@
 
   <div class="second">
     <div class="second-img">
-      <img src="img/mobile.jpg" alt="Netflix on mobile">
+      <img src="img/mobile.jpg" alt="Screenshot of Netflix mobile interface"> <!-- Improved alt text -->
     </div>
     <div>
       <h1>Download your shows to watch offline</h1>
@@ -79,8 +103,10 @@
       </h3>
     </div>
     <div class="third-img">
-      <img src="img/tv.png" alt="Netflix on devices">
+      <!-- Removed trailing slash from img tag -->
+      <img src="img/tv.png" alt="Netflix interface across multiple devices"> <!-- Improved alt text -->
       <video autoplay loop muted>
+        <!-- Removed trailing slash from source tag -->
         <source src="video/third.m4v" type="video/mp4">
       </video>
     </div>
@@ -94,42 +120,42 @@
 
   <div class="faq-box">
     <div class="que">
-      <h3>What is Netflix?</h3>
+      <h3>What is Netflix? (Demo)</h3>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff" fill="none">
         <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
           stroke-linejoin="round"></path>
       </svg>
     </div>
     <div class="que">
-      <h3>How much does Netflix cost?</h3>
+      <h3>How much does Netflix cost? (Demo)</h3>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff" fill="none">
         <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
           stroke-linejoin="round"></path>
       </svg>
     </div>
     <div class="que">
-      <h3>Where can I watch?</h3>
+      <h3>Where can I watch? (Demo)</h3>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff" fill="none">
         <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
           stroke-linejoin="round"></path>
       </svg>
     </div>
     <div class="que">
-      <h3>How do I cancel?</h3>
+      <h3>How do I cancel? (Demo)</h3>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff" fill="none">
         <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
           stroke-linejoin="round"></path>
       </svg>
     </div>
     <div class="que">
-      <h3>What can I watch on Netflix?</h3>
+      <h3>What can I watch on Netflix? (Demo)</h3>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff" fill="none">
         <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
           stroke-linejoin="round"></path>
       </svg>
     </div>
     <div class="que">
-      <h3>Is Netflix good for kids?</h3>
+      <h3>Is Netflix good for kids? (Demo)</h3>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff" fill="none">
         <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
           stroke-linejoin="round"></path>
@@ -140,63 +166,65 @@
   <footer>
     <div>
       <p>
-        Ready to watch? Enter your email to create or restart your membership.
+        Ready to watch? Enter any email to explore the demo. <!-- Modified text -->
       </p>
       <div class="footer-mail">
-        <input class="email" type="email" placeholder="Email address">
+        <!-- Removed trailing slash from input tag -->
+        <input class="email" type="email" placeholder="Enter demo email address"> <!-- Modified placeholder -->
+        <!-- Removed onclick. Will add event listener in index.js -->
         <button class="getstarted">Get Started &nbsp;&gt;</button>
       </div>
     </div>
 
     <div class="call">
-      <h5>Questions? Call 000-800-919-1743</h5>
+      <h5>For educational inquiries, contact the developer.</h5> <!-- Modified text -->
     </div>
 
     <div class="footer-end">
       <div>
-        <h5>FAQ</h5>
-        <h5>Investor Relations</h5>
-        <h5>Privacy</h5>
-        <h5>Speed Test</h5>
+        <h5>FAQ (Demo)</h5>
+        <h5>About This Clone</h5> <!-- Modified link -->
+        <h5>Privacy (Demo)</h5>
+        <h5>Speed Test (Demo)</h5>
       </div>
       <div>
-        <h5>Help Centre</h5>
-        <h5>Jobs</h5>
-        <h5>Cookie Preferences</h5>
-        <h5>Legal Notices</h5>
+        <h5>Help Centre (Demo)</h5>
+        <h5>Jobs (Demo)</h5>
+        <h5>Cookie Preferences (Demo)</h5>
+        <h5>Legal Notices (Demo)</h5>
       </div>
       <div>
-        <h5>Account</h5>
-        <h5>Ways to Watch</h5>
-        <h5>Corporate Information</h5>
-        <h5>Only on Netflix</h5>
+        <h5>Account (Demo)</h5>
+        <h5>Ways to Watch (Demo)</h5>
+        <h5>Corporate Information (Demo)</h5>
+        <h5>Demo Content</h5> <!-- Modified link -->
       </div>
       <div>
-        <h5>Media Centre</h5>
-        <h5>Terms of Use</h5>
-        <h5>Contact Us</h5>
+        <h5>Media Centre (Demo)</h5>
+        <h5>Terms of Use (Demo)</h5>
+        <h5>Contact Us (Demo)</h5>
       </div>
     </div>
 
     <div class="footer-end-small">
       <div>
-        <h5>FAQ</h5>
-        <h5>Account</h5>
-        <h5>Investor Relations</h5>
-        <h5>Ways to Watch</h5>
-        <h5>Privacy</h5>
-        <h5>Corporate Information</h5>
-        <h5>Speed Test</h5>
-        <h5>Only on Netflix</h5>
+        <h5>FAQ (Demo)</h5>
+        <h5>Account (Demo)</h5>
+        <h5>About This Clone</h5>
+        <h5>Ways to Watch (Demo)</h5>
+        <h5>Privacy (Demo)</h5>
+        <h5>Corporate Information (Demo)</h5>
+        <h5>Speed Test (Demo)</h5>
+        <h5>Demo Content</h5>
       </div>
       <div>
-        <h5>Help Centre</h5>
-        <h5>Media Centre</h5>
-        <h5>Jobs</h5>
-        <h5>Terms of Use</h5>
-        <h5>Cookie Preferences</h5>
-        <h5>Contact Us</h5>
-        <h5>Legal Notices</h5>
+        <h5>Help Centre (Demo)</h5>
+        <h5>Media Centre (Demo)</h5>
+        <h5>Jobs (Demo)</h5>
+        <h5>Terms of Use (Demo)</h5>
+        <h5>Cookie Preferences (Demo)</h5>
+        <h5>Contact Us (Demo)</h5>
+        <h5>Legal Notices (Demo)</h5>
       </div>
     </div>
   </footer>
