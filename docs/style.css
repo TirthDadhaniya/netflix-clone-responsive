@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background-color: #000000;
+    }
+
+    .main {
+        background-image: url(img/background.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        position: relative;
+    }
+
+    .box {
+        height: 100vh;
+        width: 100%;
+        opacity: 0.75;
+        position: absolute;
+        top: 0;
+        background-color: black;
+        z-index: 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75vw;
+        height: 75px;
+        margin: auto;
+        padding: 20px 0px 0px 0px;
+        z-index: 10;
+        position: relative;
+    }
+
+    .rightnav {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btn-eng {
+        background-color: rgba(10, 9, 9, 0.785);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 15px 5px 15px;
+        border-radius: 3px;
+        border: 1px solid rgba(255, 255, 255, 0.387);
+    }
+
+    
+    .btn-si {
+        background-color: rgb(232, 25, 25);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 6px 15px 6px 15px;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .btn-si:hover {
+        background-color: rgb(189, 19, 19);
+        cursor: pointer;
+    }
+    
+    
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        position: relative;
+        height: calc(100vh - 75px);
+    }
+    
+    .heading-big {
+        font-size: 56px;
+        font-weight: 800;
+        margin: 0px;
+        padding: 0;
+        text-align: center;
+        margin: 0px 0px 10px 0px;
+    }
+    
+
+    .heading h3 {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 35px 0px;
+        padding: 0;
+    }
+    
+    .heading p {
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0px 0px 12px 0px;
+        padding: 0;
+    }
+    
+    .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 10px;
+    }
+    
+    .email {
+        width: 350px;
+        background-color: rgba(43, 38, 38, 0.57);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 15px 15px 15px 15px;
+        border-radius: 3px;
+        border: 1px solid rgba(255, 255, 255, 0.387);
+    }
+    
+    .getstarted {
+        background-color: rgb(232, 25, 25);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 11px 20px 11px 20px;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .getstarted:hover {
+        background-color: rgb(189, 19, 19);
+        cursor: pointer;
+    }
+    
+    .separation {
+        height: 7px;
+        background-color: rgb(46, 44, 44);
+        position: relative;
+        z-index: 20;
+    }
+    
+    .first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+        margin: auto;
+        color: white;
+        height: 457px;
+    }
+    
+    .first h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+    
+    .first h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+    
+    .first-img {
+        position: relative;
+    }
+    
+    .first img {
+        width: 500px;
+        position: relative;
+        z-index: 10;
+        margin: 0px;
+    }
+    
+    .first-img video {
+        position: absolute;
+        top: 78px;
+        right: 65px;
+        width: 370px;
+    }
+    
+    .second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+        margin: auto;
+        color: white;
+        height: 477px;
+        gap: 50px;
+    }
+    
+    .second h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+    
+    .second h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+    
+    .second-img {
+        position: relative;
+        margin: 40px 20px 20px 40px;
+    }
+    
+    .second img {
+        width: 280px;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .third {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+        margin: auto;
+        color: white;
+        height: 457px;
+    }
+    
+    .third h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0px 0px 5px 0px;
+        padding: 0;
+    }
+    
+    .third h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+    
+    .third-img {
+        position: relative;
+    }
+    
+    .third img {
+        width: 500px;
+        position: relative;
+        z-index: 10;
+        margin: 0px;
+    }
+    
+    .third-img video {
+        position: absolute;
+        top: 76px;
+        right: 65px;
+        width: 370px;
+    }
+    
+    .faq {
+        margin: auto;
+        max-width: 70vw;
+        padding: 40px 0px 0px 0px;
+        color: white;
+    }
+    
+    .faq h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+    
+    .faq-box {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-bottom: 60px;
+    }
+    
+    .que {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 70vw;
+        background-color: rgb(45 45 45);
+        padding: 20px 20px 20px 30px;
+    }
+    
+    .que h3 {
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    
+    .que:hover {
+        background-color: rgb(35 35 35);
+        cursor: pointer;
+    }
+    
+    
+    footer {
+        color: white;
+    }
+    
+    footer>div {
+        padding: 0px 0px 40px 0px;
+    }
+    
+    footer p {
+        font-size: 16px;
+        font-weight: 300;
+        margin: 15px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .footer-mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 10px;
+    }
+    
+    footer .email {
+        width: 600px;
+        background-color: #0f0f0f;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 15px 15px 15px 15px;
+        border-radius: 3px;
+        border: 1px solid rgba(255, 255, 255, 0.387);
+    }
+
+    footer .getstarted {
+        background-color: rgb(232, 25, 25);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 11px 25px 11px 25px;
+        border-radius: 3px;
+        border: none;
+    }
+
+    footer .getstarted:hover {
+        background-color: rgb(189, 19, 19);
+        cursor: pointer;
+    }
+    
+    .call {
+        margin: auto;
+        width: 70vw;
+        padding: 40px 0px 40px 0px;
+    }
+    
+    .call h5 {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    .footer-end {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 70vw;
+    }
+    
+    .footer-end h5 {
+        font-size: 14px;
+        font-weight: 300;
+        padding: 5px 0px;
+    }
+    
+    .footer-end h5:hover {
+        cursor: pointer;
+    }
+    
+    @media screen and (min-width: 768px) {
+        
+        .btn-eng-small{
+            display: none;
+        }
+
+        .heading-small{
+            display: none;
+        }
+
+        .footer-end-small>div>h5{
+            display: none;
+        }
+    }
+    
