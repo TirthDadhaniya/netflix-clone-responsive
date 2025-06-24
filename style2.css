@@ -1,0 +1,114 @@
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 921px) and (min-width: 768px) {
+  nav {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .heading-big {
+    font-size: 48px;
+  }
+
+  .first {
+    height: 350px;
+  }
+
+  .first h1 {
+    font-size: 30px;
+  }
+
+  .first h3 {
+    font-size: 14px;
+  }
+
+  .first img {
+    width: 350px;
+  }
+
+  .first-img video {
+    top: 53px;
+    right: 48px;
+    width: 257px;
+  }
+
+  .second {
+    height: 350px;
+  }
+
+  .second h1 {
+    font-size: 30px;
+  }
+
+  .second h3 {
+    font-size: 14px;
+  }
+
+  .second img {
+    width: 200px;
+  }
+
+  .third {
+    height: 350px;
+  }
+
+  .third h1 {
+    font-size: 30px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .third h3 {
+    font-size: 14px;
+  }
+
+  .third img {
+    width: 350px;
+  }
+
+  .third-img video {
+    top: 53px;
+    right: 48px;
+    width: 257px;
+  }
+
+  .faq {
+    max-width: 80vw;
+  }
+
+  .faq h1 {
+    font-size: 20px;
+  }
+
+  .que {
+    width: 80vw;
+    padding: 16px 20px 16px 30px;
+  }
+
+  .que h3 {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  footer .email {
+    width: 430px;
+    padding: 13px 15px 13px 15px;
+  }
+
+  footer .getstarted {
+    font-size: 16px;
+    padding: 11px 20px 11px 20px;
+  }
+
+  .call h5 {
+    font-size: 14px;
+  }
+
+  .footer-end h5 {
+    font-size: 12px;
+  }
+
+  .footer-end h5:hover {
+    cursor: pointer;
+  }
+}
