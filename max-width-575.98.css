@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media screen and (min-width: 0px) and (max-width: 575.98px) {
+
+    .hero-ct {
+        width: 100%;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .logo {
+        width: 150px;
+        position: relative;
+        z-index: 3;
+
+    }
+
+    .right-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        border: 1px solid red;
+    }
+
+    .btn {
+        background-color: rgb(232, 25, 25);
+        border: none;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 5px 15px;
+        border-radius: 3px;
+    }
+
+    .btn:hover {
+        background-color: rgb(189, 19, 19);
+        cursor: pointer;
+    }
+
+    .btn-eng {
+        display: none;
+    }
+
+    .btn-small {
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.387);
+    }
+
+
+    .btn-small:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.387);
+    }
+
+    .heading {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .heading-ct {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 auto;
+        border: 1px solid red;
+    }
+
+    .heading1 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .heading1 h1 {
+        font-size: 52px;
+        font-weight: 800;
+        text-align: center;
+        line-height: 130%;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .heading1 h3 {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 35px 0px;
+        padding: 0;
+    }
+
+    .heading2 {
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid red;
+    }
+
+    .heading2 p {
+        font-size: 14px;
+        font-weight: 300;
+        padding: 0;
+    }
+
+    .details {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 10px;
+        flex: 1 1 0;
+        border: 1px solid red;
+    }
+
+    .email {
+        flex: 1 1 0;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 15px;
+        border-radius: 3px;
+        background-color: rgba(43, 38, 38, 0.55);
+        border: 1px solid rgba(255, 255, 255, 0.387);
+    }
+
+    .getstarted {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 11px 20px;
+        border-radius: 3px;
+        background-color: rgb(232, 25, 25);
+        border: none;
+    }
+
+    .getstarted:hover {
+        background-color: rgb(189, 19, 19);
+        cursor: pointer;
+    }
+
+    .separation {
+        height: 7px;
+        background-color: rgb(46, 44, 44);
+        width: 100%;
+        position: relative;
+        z-index: 20;
+        flex-shrink: 0;
+    }
+
+    .adds {
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0px;
+        gap: 30px;
+        border: 1px solid red;
+    }
+
+    .add1 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: 1px solid red;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 1px solid red;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .content h3 {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    .add1-img {
+        position: relative;
+        border: 1px solid red;
+
+    }
+
+    .add1-img img {
+        width: 500px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .add1-img video {
+        position: absolute;
+        top: 78px;
+        right: 65px;
+        width: 370px;
+        border: 1px solid red;
+    }
+
+    .add2 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 60px;
+        border: 1px solid red;
+    }
+
+    .add2-img {
+        position: relative;
+    }
+
+    .add2-img img {
+        position: relative;
+        width: 280px;
+        z-index: 10;
+    }
+
+    .faq {
+        width: 70%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        gap: 10px;
+        flex: 1 1 0;
+        border: 1px solid red;
+    }
+
+    .faq h1 {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 0;
+    }
+
+    .faq-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        flex: 1 1 0;
+        border: 1px solid red;
+    }
+
+    .que {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1 1 0;
+        background-color: rgb(45 45 45);
+        padding: 20px;
+        border: 1px solid red;
+    }
+
+    .que h3 {
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .que:hover {
+        background-color: rgb(35 35 35);
+        cursor: pointer;
+    }
+
+    .faq-solo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer {
+        width: 70%;
+        margin: 0px auto;
+        color: white;
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 60px;
+        border: 1px solid red;
+    }
+
+    .footer-mail {
+        width: 77%;
+        margin: 0px auto;
+        border: 1px solid red;
+    }
+
+    .footer2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+        border: 1px solid red;
+    }
+
+    .call {
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .call h5 {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .footer-end {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto);
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid red;
+    }
+
+    .footer-end p {
+        display: inline;
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-end p:hover {
+        cursor: pointer;
+    }
+}
+
+/* .demo-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffb300;
+  color: #000;
+  text-align: center;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.demo-banner p {
+  margin: 0;
+  padding: 0;
+}
+
+.demo-banner strong {
+  color: #c20000;
+} */

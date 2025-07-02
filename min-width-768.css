@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media screen and (max-width: 991.98px) and (min-width: 768px) {
+
+    .logo {
+        width: 120px;
+    }
+
+    .btn {
+        font-size: 13px;
+        padding: 4px 13px;
+    }
+
+    .heading-ct {
+        width: 75%;
+    }
+
+    .heading1 h1 {
+        font-size: 48px;
+    }
+
+    .heading1 h3 {
+        font-size: 18px;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .heading2 {
+        gap: 8px;
+    }
+
+    .heading2 p {
+        font-size: 14px;
+    }
+
+    .email {
+        padding: 13px;
+    }
+
+    .getstarted {
+        font-size: 18px;
+        padding: 10px 18px;
+    }
+
+    .separation {
+        height: 6px;
+    }
+
+    .adds {
+        padding: 50px 0px;
+        gap: 24px;
+    }
+
+    .add1 {
+        width: 85%;
+    }
+
+    .content h1 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .content h3 {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    .add1-img img {
+        width: 400px;
+    }
+
+    .add1-img video {
+        position: absolute;
+        top: 61px;
+        right: 54px;
+        width: 294px;
+    }
+
+    .add2 {
+        width: 85%;
+        gap: 46px;
+    }
+
+    .add2-img img {
+        width: 200px;
+    }
+
+    .faq h1 {
+        font-size: 22px;
+    }
+
+    .faq-box {
+        gap: 6px;
+    }
+
+    .que {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .que h3 {
+        font-size: 20px;
+    }
+
+    .que img {
+        width: 28px;
+        height: 28px;
+    }
+
+    footer {
+        padding: 60px 0px;
+        gap: 50px;
+    }
+
+    .footer-mail {
+        width: 75%;
+    }
+
+    .footer2 {
+        width: 100%;
+        gap: 36px;
+    }
+
+    .call h5 {
+        font-size: 15px;
+    }
+
+    .footer-end {
+        gap: 8px;
+    }
+
+    .footer-end p {
+        font-size: 13px;
+    }
+}
+
+/* .demo-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffb300;
+  color: #000;
+  text-align: center;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.demo-banner p {
+  margin: 0;
+  padding: 0;
+}
+
+.demo-banner strong {
+  color: #c20000;
+} */
