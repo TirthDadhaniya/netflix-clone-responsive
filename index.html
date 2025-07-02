@@ -1,223 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta name="google-site-verification" content="X2aEQufHdJ9X2RJjngwNbvnsfQoOQ6gs-m5F4XaNyuA" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css" media="screen and (min-width: 1200px)">
-    <link rel="stylesheet" href="style1.css" media="screen and (max-width: 1199px) and (min-width: 922px)">
-    <link rel="stylesheet" href="style2.css" media="screen and (max-width: 921px) and (min-width: 768px)">
-    <link rel="stylesheet" href="style3.css" media="screen and (max-width: 767px) and (min-width: 576px)">
-    <link rel="stylesheet" href="style4.css" media="screen and (max-width: 575px) and (min-width: 441px)">
-    <link rel="stylesheet" href="style4.css" media="screen and (max-width: 440px)">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="min-width-992.css" media="screen and (min-width: 992px)and (max-width: 1199px)" />
+    <link rel="stylesheet" href="min-width-768.css" media="screen and (max-width: 991.98px) and (min-width: 768px)" />
+    <link rel="stylesheet" href="min-width-576px.css" media="screen and (max-width: 767.98x) and (min-width: 576px)" />
+    <link rel="stylesheet" href="max-width-575.98.css" media="screen and (min-width: 0px) and (max-width: 575.98px)" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
     <title>My Netflix Clone - Educational Demo</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- <div class="demo-banner">
+        <p><strong>EDUCATIONAL DEMO SITE ONLY</strong> - This is a UI clone for learning purposes and does not collect any personal data.</p>
+    </div> -->
 
-    <div class="demo-banner">
-        <p><strong>EDUCATIONAL DEMO SITE ONLY</strong> - This is a UI clone for learning purposes and does not collect
-            any
-            personal data.</p>
-    </div>
-
-    <div class="main">
-        <nav>
-
-            <span><img width="150" src="img/logo.png" alt="Netflix Demo Logo"></span>
-            <div class="rightnav">
-                <button class="btn-eng">English&nbsp;&#x25BC;</button>
-                <button class="btn-eng-small">En&nbsp;&#x25BC;</button>
-                <button class="btn-si">Sign In (Demo)</button>
+    <div class="main-container">
+      <div class="hero">
+        <div class="hero-ct">
+          <div class="navbar">
+            <div class="logo">
+              <img src="res/logo.svg" />
             </div>
-        </nav>
-
-        <div class="box"></div>
-
-        <div class="heading">
-            <h1 class="heading-big">Unlimited movies,<br>TV shows and more</h1>
-            <h1 class="heading-small">Unlimited movies, TV shows and more</h1>
-            <h3>This is a UI clone for educational purposes. No data is collected.</h3>
-            <p>Ready to watch? Enter any email to explore the demo.</p>
-            <div class="details">
-                <input class="email" type="email" placeholder="Enter demo email address">
-                <button class="getstarted">Get Started &nbsp;&gt;</button>
+            <div class="right-nav">
+              <button class="btn btn-eng">English&nbsp;&#x25BC;</button>
+              <button class="btn-small">En&nbsp;&#x25BC;</button>
+              <button class="btn">Sign In</button>
             </div>
+          </div>
+
+          <div class="heading">
+            <div class="heading-ct">
+              <div class="heading1">
+                <h1>Unlimited movies, TV shows and more</h1>
+                <h3>Starts at ₹149. Cancel at any time.</h3>
+              </div>
+              <div class="heading2">
+                <p>Ready to watch? Enter demo email to create or restart your membership</p>
+                <div class="details">
+                  <input class="email" type="email" placeholder="Enter demo email address" />
+                  <button class="getstarted">Get Started &nbsp;&gt;</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="separation">
-    </div>
+      <div class="separation"></div>
 
-    <div class="first">
-        <div>
+      <div class="adds">
+        <div class="add1">
+          <div class="content">
             <h1>Enjoy on your TV</h1>
-            <h3>
-                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
-                players, and more.
-            </h3>
-        </div>
-        <div class="first-img">
-            <img src="img/tv.png" alt="Screenshot of Netflix interface on TV">
+            <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
+          </div>
+          <div class="add1-img">
+            <img src="res/tv.png" alt="TV frame" />
             <video autoplay loop muted>
-                <source src="video/first.m4v" type="video/mp4">
+              <source src="res/first.m4v" type="video/mp4" />
             </video>
+          </div>
         </div>
-    </div>
 
-    <div class="separation mobile"></div>
+        <div class="separation mobile"></div>
 
-    <div class="second">
-        <div class="second-img">
-            <img src="img/mobile.jpg" alt="Screenshot of Netflix mobile interface">
-        </div>
-        <div>
+        <div class="add2">
+          <div class="add2-img">
+            <img src="res/mobile.jpg" alt="Mobile" />
+          </div>
+          <div class="content">
             <h1>Download your shows to watch offline</h1>
-            <h3>
-                Save your favourites easily and always have something to watch.
-            </h3>
+            <h3>Save your favourites easily and always have something to watch.</h3>
+          </div>
         </div>
-    </div>
 
-    <div class="separation mobile"></div>
+        <div class="separation mobile"></div>
 
-    <div class="third">
-        <div>
+        <div class="add1">
+          <div class="content">
             <h1>Watch everywhere</h1>
-            <h3>
-                Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
-            </h3>
-        </div>
-        <div class="third-img">
-            <img src="img/tv.png" alt="Netflix interface across multiple devices">
+            <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+          </div>
+          <div class="add1-img">
+            <img src="res/tv.png" alt="TV frame" />
             <video autoplay loop muted>
-                <source src="video/third.m4v" type="video/mp4">
+              <source src="res/third.m4v" type="video/mp4" />
             </video>
+          </div>
         </div>
-    </div>
 
-    <div class="separation mobile"></div>
-
-    <div class="faq">
+        <div class="separation mobile"></div>
+      </div>
+      <div class="faq">
         <h1>Frequently Asked Questions</h1>
-    </div>
+        <div class="faq-box">
+          <div class="que">
+            <h3>What is Netflix?</h3>
+            <img src="res/plus.svg" />
+          </div>
 
-    <div class="faq-box">
-        <div class="que">
-            <h3>What is Netflix? (Demo)</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff"
-                fill="none">
-                <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-            </svg>
-        </div>
-        <div class="que">
-            <h3>How much does Netflix cost? (Demo)</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff"
-                fill="none">
-                <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-            </svg>
-        </div>
-        <div class="que">
-            <h3>Where can I watch? (Demo)</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff"
-                fill="none">
-                <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-            </svg>
-        </div>
-        <div class="que">
-            <h3>How do I cancel? (Demo)</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff"
-                fill="none">
-                <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-            </svg>
-        </div>
-        <div class="que">
-            <h3>What can I watch on Netflix? (Demo)</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff"
-                fill="none">
-                <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-            </svg>
-        </div>
-        <div class="que">
-            <h3>Is Netflix good for kids? (Demo)</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#ffffff"
-                fill="none">
-                <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-            </svg>
-        </div>
-    </div>
+          <div class="que">
+            <h3>How much does Netflix cost?</h3>
+            <img src="res/plus.svg" />
+          </div>
 
-    <footer>
-        <div>
-            <p>
-                Ready to watch? Enter any email to explore the demo.
-            </p>
-            <div class="footer-mail">
-                <input class="email" type="email" placeholder="Enter demo email address">
-                <button class="getstarted">Get Started &nbsp;&gt;</button>
+          <div class="que">
+            <h3>Where can I watch?</h3>
+            <img src="res/plus.svg" />
+          </div>
+
+          <div class="que">
+            <h3>How do I cancel?</h3>
+            <img src="res/plus.svg" />
+          </div>
+
+          <div class="que">
+            <h3>What can I watch on Netflix?</h3>
+            <img src="res/plus.svg" />
+          </div>
+
+          <div class="que">
+            <h3>Is Netflix good for kids?</h3>
+            <img src="res/plus.svg" />
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-mail">
+          <div class="heading2">
+            <p>Ready to watch? Enter the demo email to explore.</p>
+            <div class="details">
+              <input class="email" type="email" placeholder="Enter demo email address" />
+              <button class="getstarted">Get Started &nbsp;&gt;</button>
             </div>
+          </div>
         </div>
 
-        <div class="call">
+        <div class="footer2">
+          <div class="call">
             <h5>For educational inquiries, contact the developer.</h5>
-        </div>
+          </div>
 
-        <div class="footer-end">
+          <div class="footer-end">
             <div>
-                <h5>FAQ (Demo)</h5>
-                <h5>About This Clone</h5>
-                <h5>Privacy (Demo)</h5>
-                <h5>Speed Test (Demo)</h5>
+              <p>FAQ</p>
             </div>
             <div>
-                <h5>Help Centre (Demo)</h5>
-                <h5>Jobs (Demo)</h5>
-                <h5>Cookie Preferences (Demo)</h5>
-                <h5>Legal Notices (Demo)</h5>
+              <p>Help Centre</p>
             </div>
             <div>
-                <h5>Account (Demo)</h5>
-                <h5>Ways to Watch (Demo)</h5>
-                <h5>Corporate Information (Demo)</h5>
-                <h5>Demo Content</h5>
+              <p>Account</p>
             </div>
             <div>
-                <h5>Media Centre (Demo)</h5>
-                <h5>Terms of Use (Demo)</h5>
-                <h5>Contact Us (Demo)</h5>
+              <p>Media Centre</p>
             </div>
+            <div>
+              <p>Investor Relation</p>
+            </div>
+            <div>
+              <p>Jobs</p>
+            </div>
+            <div>
+              <p>Ways to Watch</p>
+            </div>
+            <div>
+              <p>Terms of Use</p>
+            </div>
+            <div>
+              <p>Privacy</p>
+            </div>
+            <div>
+              <p>Cookie Pref</p>
+            </div>
+            <div>
+              <p>Corporate Info</p>
+            </div>
+            <div>
+              <p>Contact Us</p>
+            </div>
+            <div>
+              <p>Speed Test</p>
+            </div>
+            <div>
+              <p>Legal Notices</p>
+            </div>
+            <div>
+              <p>Only on Netflix</p>
+            </div>
+          </div>
         </div>
-
-        <div class="footer-end-small">
-            <div>
-                <h5>FAQ (Demo)</h5>
-                <h5>Account (Demo)</h5>
-                <h5>About This Clone</h5>
-                <h5>Ways to Watch (Demo)</h5>
-                <h5>Privacy (Demo)</h5>
-                <h5>Corporate Information (Demo)</h5>
-                <h5>Speed Test (Demo)</h5>
-                <h5>Demo Content</h5>
-            </div>
-            <div>
-                <h5>Help Centre (Demo)</h5>
-                <h5>Media Centre (Demo)</h5>
-                <h5>Jobs (Demo)</h5>
-                <h5>Terms of Use (Demo)</h5>
-                <h5>Cookie Preferences (Demo)</h5>
-                <h5>Contact Us (Demo)</h5>
-                <h5>Legal Notices (Demo)</h5>
-            </div>
-        </div>
-    </footer>
-</body>
-
+      </footer>
+    </div>
+  </body>
 </html>
