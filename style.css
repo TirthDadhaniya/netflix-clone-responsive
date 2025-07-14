@@ -397,3 +397,648 @@ footer {
 .demo-banner strong {
   color: #c20000;
 } */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .logo img {
+    width: 130px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .btn {
+    padding: 4px 13px;
+  }
+
+  .heading-ct {
+    width: 70%;
+  }
+
+  .heading1 h1 {
+    font-size: 48px;
+  }
+
+  .heading1 h3 {
+    font-size: 18px;
+  }
+
+  .heading2 p {
+    font-size: 13px;
+  }
+
+  .email {
+    padding: 13px;
+  }
+
+  .getstarted {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+
+  .separation {
+    height: 6px;
+  }
+
+  .add1 {
+    width: 80%;
+  }
+
+  .content h1 {
+    font-size: 38px;
+  }
+
+  .content h3 {
+    font-size: 15px;
+  }
+
+  .add1-img img {
+    width: 450px;
+  }
+
+  .add1-img video {
+    position: absolute;
+    top: 69px;
+    right: 63px;
+    width: 330px;
+  }
+
+  .add2 {
+    width: 80%;
+  }
+
+  .add2-img img {
+    width: 230px;
+  }
+
+  .faq h1 {
+    font-size: 22px;
+  }
+
+  .que {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .que h3 {
+    font-size: 20px;
+  }
+
+  .que img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .call h5 {
+    font-size: 15px;
+  }
+
+  .footer-end {
+    gap: 8px;
+  }
+
+  .footer-end p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 991.98px) and (min-width: 768px) {
+
+  .logo {
+    width: 120px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 4px 13px;
+  }
+
+  .heading-ct {
+    width: 75%;
+  }
+
+  .heading1 h1 {
+    font-size: 48px;
+  }
+
+  .heading1 h3 {
+    font-size: 18px;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .heading2 {
+    gap: 8px;
+  }
+
+  .heading2 p {
+    font-size: 14px;
+  }
+
+  .email {
+    padding: 13px;
+  }
+
+  .getstarted {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+
+  .separation {
+    height: 6px;
+  }
+
+  .adds {
+    padding: 50px 0px;
+    gap: 24px;
+  }
+
+  .add1 {
+    width: 85%;
+  }
+
+  .content h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .content h3 {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+  }
+
+  .add1-img img {
+    width: 400px;
+  }
+
+  .add1-img video {
+    position: absolute;
+    top: 61px;
+    right: 54px;
+    width: 294px;
+  }
+
+  .add2 {
+    width: 85%;
+    gap: 46px;
+  }
+
+  .add2-img img {
+    width: 200px;
+  }
+
+  .faq h1 {
+    font-size: 22px;
+  }
+
+  .faq-box {
+    gap: 6px;
+  }
+
+  .que {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .que h3 {
+    font-size: 20px;
+  }
+
+  .que img {
+    width: 28px;
+    height: 28px;
+  }
+
+  footer {
+    padding: 60px 0px;
+    gap: 50px;
+  }
+
+  .footer-mail {
+    width: 75%;
+  }
+
+  .footer2 {
+    width: 100%;
+    gap: 36px;
+  }
+
+  .call h5 {
+    font-size: 15px;
+  }
+
+  .footer-end {
+    gap: 8px;
+  }
+
+  .footer-end p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 767.98px) and (min-width: 576px) {
+
+  .hero-ct {
+    width: 85%;
+    padding: 20px 0px;
+  }
+
+  .logo {
+    width: 100px;
+
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 4px 13px;
+  }
+
+  .heading-ct {
+    width: 65%;
+  }
+
+  .heading1 h1 {
+    font-size: 44px;
+    line-height: 125%;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .heading1 h3 {
+    font-size: 16px;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .heading2 {
+    gap: 8px;
+  }
+
+  .email {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .getstarted {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+
+  .separation {
+    height: 6px;
+  }
+
+  .adds {
+    padding: 40px 0px;
+  }
+
+  .add1 {
+    width: 85%;
+  }
+
+  .content {
+    gap: 8px;
+  }
+
+  .content h1 {
+    font-size: 34px;
+  }
+
+  .content h3 {
+    font-size: 14px;
+  }
+
+  .add1-img img {
+    width: 450px;
+  }
+
+  .add1-img video {
+    position: absolute;
+    top: 69px;
+    right: 62px;
+    width: 330px;
+  }
+
+  .add2 {
+    width: 85%;
+    gap: 40px;
+  }
+
+  .add2-img img {
+    position: relative;
+    width: 220px;
+    z-index: 10;
+  }
+
+  .faq {
+    width: 80%;
+  }
+
+  .faq h1 {
+    font-size: 20px;
+  }
+
+  .faq-box {
+    gap: 6px;
+  }
+
+  .que {
+    padding: 14px;
+  }
+
+  .que h3 {
+    font-size: 18px;
+  }
+
+  .que img {
+    width: 26px;
+    height: 26px;
+  }
+
+  footer {
+    width: 80%;
+    padding: 60px 0px;
+    gap: 50px;
+  }
+
+  .footer-mail {
+    width: 70%;
+  }
+
+  .footer2 {
+    gap: 34px;
+  }
+
+  .call h5 {
+    font-size: 14px;
+  }
+
+  .footer-end {
+    gap: 6px;
+  }
+
+  .footer-end p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 575.98px) {
+
+  .hero {
+    height: 85vh;
+    min-height: auto;
+  }
+
+  .hero-ct {
+    height: 85vh;
+    min-height: 85vh;
+    width: 100%;
+  }
+
+  .navbar {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .logo {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  .btn-eng {
+    display: none;
+  }
+
+  .heading-ct {
+    width: 90%;
+  }
+
+  .heading1 h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 130%;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .heading1 h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+  }
+
+  .heading2 {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .heading2 p {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0;
+  }
+
+  .details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 6px;
+    flex: 1 1 0;
+  }
+
+  .email {
+    width: 70vw;
+    font-size: 10px;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(43, 38, 38, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.387);
+  }
+
+  .getstarted {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 3px;
+    background-color: rgb(232, 25, 25);
+    border: none;
+  }
+
+  .getstarted:hover {
+    background-color: rgb(189, 19, 19);
+    cursor: pointer;
+  }
+
+  .separation {
+    height: 4px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .adds {
+    width: 90%;
+    margin: 0px auto;
+    padding: 40px 0px 60px 0px;
+    gap: 60px;
+  }
+
+  .add1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .content h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 130%;
+    text-align: center;
+  }
+
+  .content h3 {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0;
+    text-align: center;
+  }
+
+  .add1-img img {
+    width: 320px;
+  }
+
+  .add1-img video {
+    position: absolute;
+    top: 48px;
+    right: 44px;
+    width: 235px;
+  }
+
+  .add2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+  }
+
+  .add2-img img {
+    position: relative;
+    width: 180px;
+    z-index: 10;
+  }
+
+  .faq {
+    width: 90%;
+    margin: 0px auto;
+    padding: 60px 0px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 0;
+  }
+
+  .faq h1 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .faq-box {
+    gap: 5px;
+    flex: 1 1 0;
+  }
+
+  .que {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .que h3 {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .que img {
+    width: 22px;
+    height: 22px;
+  }
+
+  footer {
+    width: 90%;
+    padding: 20px 0px;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .footer-mail {
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  .footer-mail p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footer2 {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .call {
+    width: 100%;
+  }
+
+  .call h5 {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .footer-end {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(15, auto);
+    gap: 0px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-end p {
+    display: inline;
+    font-size: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+}
